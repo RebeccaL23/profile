@@ -34,34 +34,24 @@ h3{
 #socials li a {
   color: rgb(208, 208, 208);
 }
-/* #button{
-  text-decoration: none;
-  color:rgba(100, 200, 200, 1);
-  font-size: 24px;
-  background:
-    linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
-    linear-gradient(to right, rgb(0, 66, 116), rgb(0, 113, 212), rgb(197, 255, 22));
-  background-size: 100% 0.1em, 0 0.1em;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
-} */
+
 #chat{
   font-size: 4rem;
   margin: 15px;
 }
+
 .gradient{
   background: linear-gradient(to right, rgb(0, 66, 116), rgb(0, 113, 212), rgb(197, 255, 22));
 }
+
 #socials li{
   display: inline-block;
 }
+
 #socials li a {
   font-size: 28px;
   margin: 5px;
   color: rgb(208, 208, 208);
-  /* background: linear-gradient(to right, crimson,pink,springgreen);
-  background-size: 200% 200%; */
   animation: rainbow 2s ease-in-out infinite;
   background-clip: text;
   -webkit-background-clip:text;
@@ -69,15 +59,19 @@ h3{
   text-transform:uppercase;
   font-weight:900;
 }
+
 #socials li a:hover{
   color:rgba(0,0,0,0);
 }
+
 .text-width{
   width: 50%;
 }
+
 .text-width-wide{
   width: 40%;
 }
+
 #button:hover,
 #button:focus{
   background-size: 0 0.1em, 100% 0.1em;
@@ -115,13 +109,16 @@ h3{
   padding: 20px;
   box-shadow: 2px 2px 20px #eee;
 }
+
 #footer{
   border-radius: 20px 20px 0px 0;
   margin-bottom: 0px;
 }
+
 footer ul{
   padding: 0;
 }
+
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .cards{
@@ -135,6 +132,7 @@ footer ul{
     width: 80%;
   }
 }
+
 @media (max-width: 1040px) {
   .circle{
     top:75vh;
